@@ -2,7 +2,11 @@
 
 A quick prompt builder for coding with Claude across many chats. One offline HTML file: no install, no server, no libraries.
 
-Open `PromptHub.html` in any browser (phone or desktop) and follow the 1-2-3 steps:
+**Use it online:** https://ulizel.github.io/PromptHub/
+
+**Use it offline:** download `index.html` (rename it to `PromptHub.html` if you like) and open it in any browser, on phone or desktop.
+
+Then follow the 1-2-3 steps:
 
 1. **Where are you?** New project · New chat · Same chat · Ending chat
 2. **What do you want?** Pick a task type and type one line
