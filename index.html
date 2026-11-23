@@ -7,6 +7,7 @@
 <!--
   PromptHub — quick prompt builder for coding with an AI assistant across chats.
   Single offline HTML file. No external requests, no libraries.
+  v2026.11.23i  Long "Add from library" rules wrap instead of running off the screen.
   v2026.11.23h  Same chat prompt opens with a direct instruction to keep earlier rules and mode.
   v2026.11.23g  Smaller: Handoff save and Fill from Claude share applyProject(); duplicate CSS merged.
   v2026.11.23f  Pinch and double-tap zoom disabled on phones.
@@ -55,6 +56,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-vis
 .where button.on small{color:var(--acc)}
 .chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
 .chips button{flex:0 0 auto}
+.chips.wrap button{flex:0 1 auto;max-width:100%;white-space:normal;text-align:left}
 .wrap{flex-wrap:wrap;overflow:visible}
 .mini{display:flex;gap:4px;align-items:center;margin-top:10px}
 .mini span{font-size:14px;font-weight:600;margin-right:4px}
